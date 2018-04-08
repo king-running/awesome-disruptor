@@ -3,7 +3,7 @@
 
 echo '
 
-resolvers += "Sonatype Nexus Repository Manager" at "http://repo.wecash.net:8081/nexus/content/repositories/snapshots"
+resolvers += "Sonatype Nexus Repository Manager" at "http://repo.xxxx.net:8081/nexus/content/repositories/snapshots"
 
 credentials += Credentials(Path.userHome / ".sbt" / "credentials")
 
@@ -11,9 +11,9 @@ coursier.Keys.coursierCredentials += "Sonatype Nexus Repository Manager" -> cour
 
 //publishTo := {
 //  if (version.value.toLowerCase.endsWith("snapshot"))
-//  Some("snapshots" at "http://repo.wecash.net:8081/nexus/content/repositories/snapshots")
+//  Some("snapshots" at "http://repo.xxxxx.net:8081/nexus/content/repositories/snapshots")
 //  else
-//  Some("releases" at "http://repo.wecash.net:8081/nexus/content/repositories/releases/")
+//  Some("releases" at "http://repo.xxxxx.net:8081/nexus/content/repositories/releases/")
 //}
 
 //option
