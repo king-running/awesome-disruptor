@@ -10,8 +10,8 @@ echo '
   sbt-repox:http://120.27.31.34:8078/
   sbt-repox-ivy:http://120.27.31.34:8078/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
 
-  Sonatype Nexus Repository Manager:http://repo.wecash.net:8081/nexus/content/repositories/snapshots
-  Sonatype Nexus Repository Manager-ivy:http://repo.wecash.net:8081/nexus/content/repositories/snapshots, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  Sonatype Nexus Repository Manager:http://repo.xxx.net:8081/nexus/content/repositories/snapshots
+  Sonatype Nexus Repository Manager-ivy:http://repo.xx.net:8081/nexus/content/repositories/snapshots, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
 
   oss-snapshots:https://oss.sonatype.org/content/repositories/snapshots
   oss-snapshots-ivy:https://oss.sonatype.org/content/repositories/snapshots, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
@@ -26,7 +26,7 @@ echo '
 
 echo '
 realm=Sonatype Nexus Repository Manager
-host=repo.wecash.net
+host=repo.xxxx.net
 user=mvn_deploy_user
 password=LPG92DP8g8iL
 ' > ~/.sbt/credentials
